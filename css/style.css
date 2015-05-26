@@ -1,0 +1,66 @@
+body{
+font-family: 'courier new', courier, sans-serif;
+font-weight: 500;
+color: #555;
+}
+h1 {
+font-size: 36px;
+line-height: 1.2;
+}
+h2 {
+font-size: 21px;
+line-height: 1.2;
+}
+p {
+font-size: 18px;
+line-height: 20px;
+margin-bottom: 20px;
+}
+a {
+text-decoration: none;
+color: #2ec371;
+}
+blockquote {
+font-size: 21px;
+line-height: 30px;
+}
+pre {
+font-size: 13px;
+line-height: 18.5714302062988px;
+}
+section {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#top {
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+text-align: center;
+background-color: #cbd0d3;
+padding-top: 100px;
+padding-bottom: 100px;
+background-image: url("../images/hero-bg-dark.jpg"); no-repeat center center;
+background-size: cover;
+}
+
+#top h1 {
+color: #2ec371;
+font-weight: 800;
+}
+#top h2 {
+color: white;
+font-weight: 200;
+}
+.skinny {
+color: white;
+font-weight: 100
+}
+.container {
+width: 970px;
+margin: 0 auto;
+}
+#ryan-image {
+float: left;
+margin-right: 30px;
+margin-bottom: 20px;
+}
+
