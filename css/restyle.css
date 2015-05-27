@@ -1,37 +1,33 @@
+restyle.css
+
 * {
-  -webkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 body {
-  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-  font-weight: 500;
-  color: #666666;
+	font-family: 'courier new', courier, sans-serif;
+	font-weight: 500;
+	color: #555;
 }
 
 h1, h2, h3 {
-  font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1 {
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: left;
-  padding-left: 180px;
- }
-
+	font-size: 36px;
+	line-height: 1.2;
+}
 h2 {
-  font-size: 21px;
-  line-height: 1.2;
-  text-align: left;
-  padding-left: 180px;
-
+	font-size: 21px;
+	line-height: 1.2;
 }
 p {
-  font-size: 18px;
-  line-height: 19px;
-  margin-bottom: 19px;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 20px;
 }
 
 a {
@@ -40,44 +36,54 @@ a {
 }
 
 blockquote {
-  font-size: 21px;
-  font-weight: 400;
-  line-height: 30px;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 30px;
 }
 pre {
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 18.5714302062988px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18.5714302062988px;
 }
 
 section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 /* Navbar */
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
 #header-title {
-  float: left;
-  padding-top: 15px;
-  margin-bottom: 0px;
+	float: left;
+	padding-top: 15px;
+	margin-bottom: 0px;
 }
 
 #header-nav {
-  float: right;
+	float: right;
 }
 
 #header-nav li {
-  display: inline-block;
-  vertical-align: top;
+	display: inline-block;
+	vertical-align: top;
+
 }
 
 #header-nav li a {
-  display: block;
-  padding: 15px;
+	display: block;
+	padding: 15px;
 }
 
 #header-nav li a:hover {
-  background-color: #fefefe;
+	background-color: #fefefe;
 }
 
 /* Top Section Styling */
@@ -87,34 +93,34 @@ section {
   background-color: #cbd0d2;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: url('../images/Stirling-Castle.jpg') no-repeat center center;
+  background: url('../images/hero-bg-dark.jpg') no-repeat center center;
   background-size: cover;
 }
 
 #top h1 {
-  color: #9999CC;
-  font-weight: 800;
+	color: #2ec371;
+	font-weight: 800;
 }
 
 #top h2 {
-  color: #9999CC;
-  font-weight: 200;
+	color: #cecece;
+	font-weight: 200;
 }
 
 #top fieldset {
-  width: 400px;
+	width: 400px;
   margin: 20px auto;
 }
 
 #top input[type="text"] {
-  padding: 10px;
+	padding: 10px;
   width: 70%;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #top input[type="text"]:focus {
-  outline: 0;
+	outline: 0;
   border: 1px solid red;
 }
 
@@ -125,8 +131,6 @@ section {
   border-radius: 5px;
   font-size: 15px;
 }
-
-
 
 /* Middle Section */
 
@@ -139,12 +143,12 @@ section {
 /* Bottom Section */
 
 #bottom {
-  background-color: #f9f9f9;
-  text-align: center;
+	background-color: #f9f9f9;
+	text-align: center;
 }
 
 #bottom h2 {
-  text-align: center;
+	text-align: center;
   font-weight: 600;
   font-size: 32px;
 }
@@ -174,13 +178,13 @@ section {
 /* Universal */
 
 .container {
-  width: 970px;
-  margin: 0 auto;
+	width: 970px;
+	margin: 0 auto;
 }
 
 .skinny {
-  font-weight: 100;
-  color: #fefefe;
+	font-weight: 100;
+	color: #fefefe;
 }
 
 .btn {
@@ -192,7 +196,7 @@ section {
 }
 
 .btn:hover {
-  background-color: #357ebd;
+	background-color: #357ebd;
 }
 
 /* clearfix */
@@ -206,4 +210,7 @@ section {
 }
 .row, .clearfix {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+@media (max-width: 768px) and (min-width: 991px) {
+	
 }
